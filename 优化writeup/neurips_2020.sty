@@ -310,6 +310,7 @@
   \vskip 0.09in%
 }
 
+
 % create title (includes both anonymized and non-anonymized versions)
 \providecommand{\@maketitle}{}
 \renewcommand{\@maketitle}{%
@@ -323,11 +324,15 @@
     \@bottomtitlebar
     \if@submission
       \begin{tabular}[t]{c}\bf\rule{\z@}{24\p@}
-        Anonymous Author(s) \\
-        Affiliation \\
-        Address \\
-        \texttt{email} \\
+        Zhaozheng Shen  \\
+        42629390 \\
+        \texttt{shenzhzh@shanghaitech.edu.cn} \\
       \end{tabular}%
+  \begin{tabular}[t]{c}\bf\rule{\z@}{24\p@}
+  	Wenke Jing  \\
+  	11120602 \\
+  	\texttt{jingwk@shanghaitech.edu.cn} \\
+  \end{tabular}%
     \else
       \def\And{%
         \end{tabular}\hfil\linebreak[0]\hfil%
@@ -342,7 +347,6 @@
     \vskip 0.3in \@minus 0.1in
   }
 }
-
 % add conference notice to bottom of first page
 \newcommand{\ftype@noticebox}{8}
 \newcommand{\@notice}{%
